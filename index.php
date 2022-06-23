@@ -60,11 +60,23 @@ $faq= [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <div class="container" style="width: 1000px ; margin:auto;">
-
+    <header>
+        <div class="header-container-left">
+            <div class="logo"><img class="logo-google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" alt=""></div>
+            <div class="title"><h2>Privacy e termini</h2></div>
+        </div>
+        <div class="header-container-right">
+            <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="login"><button class="btn-login">Accedi</button></div>
+        </div>
+    </header>
+    <div class="container">
+        
 <?php 
  foreach($faq as  $answer){
     echo $answer['answer'];

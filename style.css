@@ -1,0 +1,27 @@
+
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+};
+
+header{
+    background-color: white;
+    min-height: 100px;
+}
+
+.header-container-left, .header-container-right{
+    display: flex;
+    align-items: center;
+}
+
+.logo-google{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.title{
+    color:grey;
+    margin-left: 5px;
+}
