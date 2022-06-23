@@ -75,6 +75,26 @@ $faq= [
             <div class="login"><button class="btn-login">Accedi</button></div>
         </div>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Introduzione</a>
+            </li>
+            <li>
+                <a href="#">Nomer sulla privacy</a>
+            </li>
+            <li>
+                <a href="#">Termini di servizio</a>
+            </li>
+            <li>
+                <a href="#">Tecnologie</a>
+            </li>
+            <li>
+                <a href="#">Domade Frequenti</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
     <div class="container">
         
 <?php 

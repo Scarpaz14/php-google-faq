@@ -4,16 +4,21 @@
     width: 1200px;
     max-width: 100%;
     margin: auto;
-};
+    margin-top: 100px;
+}
 
 header{
-    background-color: white;
-    min-height: 100px;
+    display: flex;
 }
 
 .header-container-left, .header-container-right{
     display: flex;
     align-items: center;
+    width: 50%;
+}
+
+.header-container-right{
+    justify-content: flex-end;
 }
 
 .logo-google{
@@ -24,4 +29,37 @@ header{
 .title{
     color:grey;
     margin-left: 5px;
+}
+
+.menu{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+.btn-login{
+    background-color: #1a73e8;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+    margin-right:20px;
+    font-weight: bolder;
+}
+
+a:hover{
+    color:#1a73e8
 }
